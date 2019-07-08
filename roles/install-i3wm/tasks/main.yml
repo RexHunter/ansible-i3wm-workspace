@@ -1,0 +1,11 @@
+---
+
+- name: Install lightdm
+  apt:
+    name: lightdm
+  when: ansible_distribution == 'Debian'
+
+- name: Install i3
+  apt:
+    name: i3
+  when: ansible_distribution == 'Debian'

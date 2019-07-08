@@ -1,0 +1,5 @@
+---
+- hosts: vagrant
+  become: true
+  roles:
+    - install-i3wm
